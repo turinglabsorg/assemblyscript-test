@@ -7,7 +7,7 @@
     "test": "node tests",
     "build:debug": "asc assembly/index.ts --target debug",
     "build:release": "asc assembly/index.ts --target release",
-    "build": "npm run build:debug && npm run build:release",
+    "build": "npm run build:debug && npm run build:release && npm run test",
     "start": "npx serve ."
   },
   "repository": {
